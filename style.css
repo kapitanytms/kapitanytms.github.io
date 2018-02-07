@@ -1,0 +1,25 @@
+body {
+	margin: 0px;
+	background-image: url("./hero.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	font-family: 'Nanum Myeongjo', serif;
+	color: rgba(234, 220, 209, 0.8);
+}
+.container-fluid {
+}
+
+.btn:hover {
+	transform: scale(1.1);
+}
+.btn {
+	transition: all 1s;
+	border: 1px;
+	border-radius: 25px;
+}
+
+hr {
+	max-width: 65px;
+	border-color: white;
+	border-width: 5px;
+}
